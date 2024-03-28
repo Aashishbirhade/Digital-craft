@@ -1,0 +1,283 @@
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+/* Main Content Sections */
+.container {
+    margin-top: 20px;
+}
+
+/* Home Section */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 50px;
+}
+
+/* About Section */
+#about {
+    background-color: #e5d5d5;
+    padding: 50px;
+}
+
+#about h2 {
+    color: #007bff;
+}
+
+#about p {
+    color: #333333;
+}
+
+/* Services Section */
+#services {
+    background-color: #c0c9d2;
+    padding: 50px;
+}
+
+#services h2 {
+    color: #007bff;
+}
+
+#services h3 {
+    color: #333333;
+}
+
+#services p {
+    color: #666666;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #f0e1e1;
+    padding: 50px;
+}
+
+#testimonials h2 {
+    color: #007bff;
+}
+
+.card-footer small {
+    color: #666666;
+}
+
+/* Team Section */
+#team {
+    background-color: #ccd4dd;
+    padding: 50px;
+}
+
+#team h2 {
+    color: #007bff;
+}
+
+.card-title,
+.card-text {
+    color: #333333;
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 80px 0;
+    background-color: #f0e1e1;
+  }
+  
+  .gallery-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+/* Contact Section */
+#contact {
+    background-color: #bcc1c6;
+    padding: 50px;
+}
+
+#contact h2 {
+    color: #007bff;
+}
+
+/* Footer Section */
+footer.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.footer h5 {
+    color: #ffffff;
+}
+
+.footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-icon {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+/* Testimonial Modal */
+.modal-content {
+    background-color: #ffffff;
+}
+
+.modal-content .card {
+    border: none;
+}
+
+.modal-content .card-footer {
+    background-color: #f8f9fa;
+}
+
+.modal-content .card-footer small {
+    color: #333333;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    .jumbotron {
+        padding: 30px;
+    }
+
+    #about,
+    #services,
+    #testimonials,
+    #team,
+    #gallery,
+    #contact {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .navbar-toggler {
+        font-size: 20px;
+    }
+
+    .jumbotron {
+        padding: 20px;
+    }
+
+    #about,
+    #services,
+    #testimonials,
+    #team,
+    #gallery,
+    #contact {
+        padding: 20px;
+    }
+}
+
+#gallery {
+    padding: 50px 0;
+}
+
+#gallery h2 {
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    align-content: center;
+
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+    color: white;
+}
+
+/* CSS for gallery images */
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+#home{
+   background-image: url(photo/bg.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#h{
+    width: 35vw;
+    height: 70vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 10px, 5px #fff;
+    backdrop-filter: blur(10px);
+    margin: 3rem auto;
+    padding: 1rem;
+    padding-left: 30px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255, 0.2);
+    /* Background color for the quiz section */
+    animation: fadeIn 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: black;
+    font-size: 26px;
+}
+ .gallery-section { 
+    padding: 80px 0;
+  }
+  
+  .gallery-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border-radius: 8px;
+  } 
